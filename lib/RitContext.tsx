@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import * as Location from 'expo-location';
 import { Platform } from 'react-native';
-import { clearActiveTrip, getActiveTrip, getDeviceId, makeTripId, saveActiveTrip } from './storage';
+import { clearActiveTrip, getActiveTrip, makeTripId, saveActiveTrip } from './storage';
 import { saveTrip, loadTrips } from './trips';
 import { Coordinate, Trip, TripDraft } from './types';
 
